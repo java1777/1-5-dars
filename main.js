@@ -232,21 +232,21 @@
 
 // Task 15
 
-let randomSon = Math.floor(Math.random() * 100) + 1;
-let foydalanuvchiSon;
-let urinishlar = 0;
+// let randomSon = Math.floor(Math.random() * 100) + 1;
+// let foydalanuvchiSon;
+// let urinishlar = 0;
 
-do {
-    foydalanuvchiSon = prompt("1 dan 100 gacha bo'lgan sonni kiriting:");
+// do {
+//     foydalanuvchiSon = prompt("1 dan 100 gacha bo'lgan sonni kiriting:");
 
-    foydalanuvchiSon = Number(foydalanuvchiSon);
-    urinishlar++;
+//     foydalanuvchiSon = Number(foydalanuvchiSon);
+//     urinishlar++;
 
-    if (foydalanuvchiSon > randomSon) {
-        console.log("Kichikroq son kiriting.");
-    } else if (foydalanuvchiSon < randomSon) {
-        console.log("Kattaroq son kiriting.");
-    } else {
-        console.log("Tabriklayman! Siz " + urinishlar + " urinishda to'g'ri topdingiz.");
-    }
-} while (foydalanuvchiSon !== randomSon);
+//     if (foydalanuvchiSon > randomSon) {
+//         console.log("Kichikroq son kiriting.");
+//     } else if (foydalanuvchiSon < randomSon) {
+//         console.log("Kattaroq son kiriting.");
+//     } else {
+//         console.log("Tabriklayman! Siz " + urinishlar + " urinishda to'g'ri topdingiz.");
+//     }
+// } while (foydalanuvchiSon !== randomSon);
